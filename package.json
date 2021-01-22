@@ -1,6 +1,7 @@
 {
   "name": "gateway-addon",
   "version": "0.12.0",
+  "internalWARNING": "0.12.0 - NEW version? Also update script/prepare below!",
   "description": "Bindings for Mozilla WebThings Gateway add-ons",
   "scripts": {
     "prepare": "if [ ! -d schema ]; then git clone -q -c advice.detachedHead=false --depth 1 --branch v0.12.0 https://github.com/WebThingsIO/gateway-addon-ipc-schema.git schema; fi",
