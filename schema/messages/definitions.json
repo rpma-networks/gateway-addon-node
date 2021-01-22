@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/mozilla-iot/gateway-addon-ipc-schema/master/messages/definitions.json",
+  "definitions": {
+    "NotificationLevel": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ]
+    },
+    "any": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "boolean"},
+        {"type": "object"},
+        {"type": "array"},
+        {"type": "number"},
+        {"type": "string"}
+      ]
+    }
+  }
+}
